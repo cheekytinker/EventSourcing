@@ -1,0 +1,24 @@
+{
+  "name": "EventSourcing",
+  "version": "1.0.0",
+  "description": "Trying event souricing pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "sourced": "^0.1.4",
+    "sourced-repo-mongo": "^0.3.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "webpack": "^1.13.2"
+  }
+}
